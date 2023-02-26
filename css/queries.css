@@ -1,0 +1,13 @@
+@media (max-width: 24em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .component {
+    width: 80%;
+  }
+
+  .text-box {
+    padding: 0 0.8rem;
+  }
+}

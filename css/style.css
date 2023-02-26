@@ -1,0 +1,76 @@
+/*//////////////////////////////// 
+///     GENERAL STYLES      /////
+///////////////////////////////*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+
+/*/ ///////////////////////////////
+///     COMPONENT STYLES     /////
+///////////////////////////////*/
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.component {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.6rem;
+  border-radius: 1.1rem;
+}
+
+.component-img {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.8rem;
+  border-radius: 1.1rem;
+}
+
+.text-box {
+  padding: 0 1.6rem;
+}
+
+.component-heading {
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -0.5px;
+  margin-bottom: 1.8rem;
+  color: hsl(218, 44%, 22%);
+}
+
+.component-text {
+  font-size: 1.5rem;
+  color: hsl(220, 15%, 55%);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/*
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
